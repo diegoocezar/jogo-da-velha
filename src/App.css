@@ -1,4 +1,6 @@
-.App-header .about {
+.about {
   font-size: 14px;
+  font-weight: bold;
   color: #707070;
+  text-decoration: none;
 }
