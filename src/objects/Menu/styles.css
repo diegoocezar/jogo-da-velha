@@ -1,0 +1,27 @@
+.menu {
+  background-color: var(--color-fourth);
+  margin: 4px 0;
+  width: 25px;
+  height: 3px;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.menu::before,
+.menu::after {
+  content: "";
+  background-color: var(--color-fourth);
+  width: 25px;
+  height: 3px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.menu::before {
+  top: 9px;
+}
+
+.menu::after {
+  top: 23px;
+}
