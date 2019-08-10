@@ -4,8 +4,10 @@
   width: 25px;
   height: 3px;
   border-radius: 10px;
-  display: inline-block;
+  position: absolute;
   box-sizing: border-box;
+  right: 35px;
+  top: 10px;
 }
 
 .menu::before,
@@ -19,9 +21,9 @@
 }
 
 .menu::before {
-  top: 9px;
+  top: -9px;
 }
 
 .menu::after {
-  top: 23px;
+  top: 9px;
 }

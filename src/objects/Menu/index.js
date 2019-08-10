@@ -2,6 +2,8 @@ import React from "react";
 
 import "./styles.css";
 
-const Menu = () => <div className="menu" />;
+const Menu = () => {
+  return <div className="menu" />;
+};
 
 export default Menu;
