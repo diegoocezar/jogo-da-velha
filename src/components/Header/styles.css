@@ -1,7 +1,15 @@
 .header {
-  position: relative;
-  height: 30px;
   display: flex;
-  justify-content: space-around;
-  margin-top: 19px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px;
+}
+
+.header > .sobre {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.header > .menu {
+  width: 25px;
 }

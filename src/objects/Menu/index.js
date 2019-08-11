@@ -3,7 +3,11 @@ import React from "react";
 import "./styles.css";
 
 const Menu = () => {
-  return <div className="menu" />;
+  return (
+    <a href="#menu" className="menu">
+      <span className="center"> Menu</span>
+    </a>
+  );
 };
 
 export default Menu;

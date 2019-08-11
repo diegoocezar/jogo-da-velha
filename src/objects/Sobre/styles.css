@@ -1,9 +1,7 @@
-.about {
+.sobre {
   font-size: 14px;
   font-weight: bold;
   color: var(--color-fourth);
   text-decoration: none;
   text-transform: uppercase;
-  line-height: 30px;
-  margin-right: 35px;
 }

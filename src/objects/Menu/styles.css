@@ -1,29 +1,20 @@
 .menu {
-  background-color: var(--color-fourth);
-  margin: 4px 0;
-  width: 25px;
-  height: 3px;
-  border-radius: 10px;
-  position: absolute;
-  box-sizing: border-box;
-  right: 35px;
-  top: 10px;
+  display: block;
+  text-indent: -9999px;
 }
 
 .menu::before,
-.menu::after {
+.menu::after,
+.menu > .center {
   content: "";
+  display: block;
   background-color: var(--color-fourth);
-  width: 25px;
-  height: 3px;
-  border-radius: 10px;
-  position: absolute;
-}
-
-.menu::before {
-  top: -9px;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 5px;
 }
 
 .menu::after {
-  top: 9px;
+  margin-bottom: 0;
 }
