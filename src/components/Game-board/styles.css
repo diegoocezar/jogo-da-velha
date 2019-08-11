@@ -6,3 +6,7 @@
   border-radius: 5px;
   transform: translateY(45%);
 }
+
+.game-board > .game-item {
+  width: 42px;
+}
