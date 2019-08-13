@@ -1,12 +1,17 @@
 import React from "react";
+import Card from "./objects/Card";
+import Player from "./objects/Player";
+
 import Header from "./components/Header";
-import GameBoard from "./components/Game-board";
 
 function App() {
   return (
     <>
       <Header />
-      <GameBoard />
+      <Card>
+        <Player player="o" />
+        <Player player="x" />
+      </Card>
     </>
   );
 }
