@@ -2,7 +2,7 @@ import React from "react";
 import Input from "../Input";
 import Label from "../Label";
 
-// import { Container } from './styles';
+import "./styles.css";
 
 const Checkbox = ({ id = "", content = "", value = "" }) => (
   <>
