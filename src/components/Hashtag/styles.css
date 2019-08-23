@@ -5,8 +5,6 @@
 .hashtag {
   display: grid;
   height: 100%;
-
-  background-color: var(--color-third);
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 

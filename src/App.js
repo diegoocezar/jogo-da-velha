@@ -9,9 +9,9 @@ import About from "./objects/About";
 const App = () => (
   <main className="app">
     <Header />
-    <About />
     <Hashtag />
     <Checkbox value="show" id="show" content="Mostrar eventos" />
+    <About />
   </main>
 );
 
