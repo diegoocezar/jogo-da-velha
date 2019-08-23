@@ -1,8 +1,7 @@
 import React from "react";
 
 import "./styles.css";
-// import Header from "../../components/Header";
 
-const About = () => <article className="about">{/* <Header /> */}</article>;
+const About = ({ children }) => <article className="about">{children}</article>;
 
 export default About;
