@@ -1,13 +1,13 @@
 import React from "react";
 import AboutLink from "../../objects/AboutLink";
-import Logo from "../../objects/Logo";
+import LogoCollab from "../../objects/LogoCollab";
 import Menu from "../../objects/Menu";
 import "./styles.css";
 
 const Header = () => {
   return (
     <header className="header">
-      <Logo />
+      <LogoCollab />
       <AboutLink />
       <Menu />
     </header>
