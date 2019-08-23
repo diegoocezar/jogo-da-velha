@@ -1,0 +1,34 @@
+.icon-close {
+  position: relative;
+  display: inline-block;
+  width: 22.4px;
+  height: 22.4px;
+}
+
+.icon-close::before,
+.icon-close::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  width: 30px;
+  height: 4px;
+  background-color: var(--color-zero);
+  border-radius: 2px;
+}
+
+.icon-close::before {
+  left: 2px;
+  transform: rotate(45deg);
+  transform-origin: left top;
+}
+
+.icon-close::after {
+  right: 2px;
+  transform: rotate(-45deg);
+  transform-origin: right top;
+}
+
+.icon-close > .content {
+  display: inline-block;
+  text-indent: -9999px;
+}
