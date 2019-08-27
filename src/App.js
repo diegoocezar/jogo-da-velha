@@ -16,7 +16,7 @@ const App = () => (
     <Hashtag />
     <Checkbox value="show" id="show" content="Mostrar eventos" />
     <About>
-      <LogoCollab />
+      <LogoCollab light />
       <AboutLink className="-light" />
       <IconClose />
     </About>
