@@ -7,6 +7,7 @@ import About from "./objects/About";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
 import HeaderInternal from "./components/HeaderInternal";
+import ProfileUser from "./components/ProfileUser";
 
 const App = () => (
   <main className="app">
@@ -15,6 +16,7 @@ const App = () => (
     <Checkbox value="show" id="show" content="Mostrar eventos" />
     <About>
       <HeaderInternal />
+      <ProfileUser />
     </About>
   </main>
 );
