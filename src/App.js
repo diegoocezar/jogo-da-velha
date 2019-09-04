@@ -3,6 +3,7 @@ import "./App.css";
 
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
+import GameEvent from "./objects/GameEvent";
 
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
@@ -20,6 +21,7 @@ const App = () => {
       <Header onClick={handleClick} />
       <Hashtag />
       <Checkbox value="show" id="show" content="Mostrar eventos" />
+      <GameEvent content="Adicionou X" />
       <About className={activeAbout}>
         <HeaderInternal onClick={handleClick} />
         <ProfileUser />
